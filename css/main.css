@@ -1,0 +1,42 @@
+@import url('./bootstrap.min.css');
+:root{
+    --color-red: #E40505;
+    --color-pink: #e0afa0;
+    --color-white: #ffffff;
+    --color-black: #32302c;
+    --color-grey66: #666666;
+    --color-grey9f: #9f9f9f;
+    --color-greyD4: #d4d4d4;
+    --color-greyE9: #e9e9e9;
+    --color-greyF7: #f7f7f7;
+    --color-brown: #AC9E91;
+    --color-brownDeep: #A78667;
+    --color-brownLight: #F1ECE8;
+    --color-brown5f: #997b5f;
+}
+a,.nav-link{
+    color: var(--color-grey66);
+}
+a:hover,.nav-link:hover,
+a:focus,.nav-link:focus{
+    color: var(--color-brownDeep);
+}
+.discountAlert{
+    background-color: var(--color-brown);
+}
+.footer{
+    background-color: var(--color-brownLight);
+    color: var(--color-grey66);
+}
+.footerContent{
+    border-bottom: 1px solid var(--color-greyD4);
+}
+.pageTop{
+    right: 1rem;
+    bottom: 3rem;
+}
+@media (max-width: 576px) { 
+    .pageTop{
+        bottom: 6rem;
+    }
+}
