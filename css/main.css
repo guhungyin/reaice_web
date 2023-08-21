@@ -14,6 +14,9 @@
     --color-brownLight: #F1ECE8;
     --color-brown5f: #997b5f;
 }
+*{
+    font-family: Montserrat, andy-money, Noto Sans, Mitr, Athiti, Noto Sans TC, Noto Sans SC, system-ui, -apple-system, Segoe UI, sans-serif;
+}
 a,.nav-link{
     color: var(--color-grey66);
 }
@@ -21,8 +24,45 @@ a:hover,.nav-link:hover,
 a:focus,.nav-link:focus{
     color: var(--color-brownDeep);
 }
+/* 按鈕 邊框式*/
+.btn-outline-brownDeep{
+    color: var(--color-brownDeep);
+    border-color: var(--color-brownDeep);
+}
+.btn-outline-brownDeep:hover{
+    border-color: var(--color-brownDeep);
+    background-color: var(--color-brownDeep);
+    color: var(--color-white);
+}
+.btn-check:active+.btn-outline-brownDeep, .btn-check:checked+.btn-outline-brownDeep, .btn-outline-brownDeep.active, .btn-outline-brownDeep.dropdown-toggle.show, .btn-outline-brownDeep:active{
+    border-color: var(--color-brownDeep);
+    background-color: var(--color-brownDeep);
+}
+
+/* 按鈕 背景式 */
+.btn-brownDeep{
+    color: var(--color-white);
+    border-color: var(--color-brownDeep);
+    background-color: var(--color-brownDeep);
+}
+.btn-check:focus+.btn-brownDeep, .btn-brownDeep:focus{
+    color: var(--color-white);
+    border-color: var(--color-brownDeep);
+    background-color: var(--color-brownDeep);
+}
+.btn-brownDeep:hover{
+    color: var(--color-white);
+    border-color: var(--color-brown5f);
+    background-color: var(--color-brown5f);
+}
 .discountAlert{
+    z-index: 1;
+    top: 0;
     background-color: var(--color-brown);
+}
+.header{
+    z-index: 1;
+    top: 56px;
 }
 .footer{
     background-color: var(--color-brownLight);
@@ -30,6 +70,31 @@ a:focus,.nav-link:focus{
 }
 .footerContent{
     border-bottom: 1px solid var(--color-greyD4);
+}
+.productTitle{
+    color: var(--color-brown);
+}
+/* 分頁按鈕 */
+.page-link{
+    color: var(--color-grey66);
+    padding: 0.5rem 0.925rem;
+}
+.active>.page-link,
+.page-link.active{
+    background-color: var(--color-brownDeep);
+    border-color: var(--color-brownDeep);
+    color: var(--color-white);
+}
+.page-link:hover{
+    background-color: var(--color-brownDeep);
+    border-color: var(--color-brownDeep);
+    color: var(--color-white);
+}
+.page-link:focus{
+    background-color: var(--color-brownDeep);
+    border-color: var(--color-brownDeep);
+    color: var(--color-white);
+    box-shadow: 0 0 0 0.25rem var(--color-brownLight);
 }
 .pageTop{
     right: 1rem;
