@@ -62,7 +62,14 @@ a:focus,.nav-link:focus{
 }
 .header{
     z-index: 1;
-    top: 56px;
+    top: 40px;
+}
+.labelIcon{
+    padding: 4px 16px;
+    letter-spacing: 1px;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+    font-size: .8rem;
 }
 .footer{
     background-color: var(--color-brownLight);
@@ -104,4 +111,8 @@ a:focus,.nav-link:focus{
     .pageTop{
         bottom: 6rem;
     }
+}
+/* 文字縮排 */
+.indent-2{
+    padding-left: 2em;
 }
