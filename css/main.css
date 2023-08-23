@@ -140,3 +140,7 @@ a:focus,.nav-link:focus{
 .indent-2{
     padding-left: 2em;
 }
+.breadcrumb{
+    background-color: var(--color-greyE9);
+    font-size: .8rem;
+}
