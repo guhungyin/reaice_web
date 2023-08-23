@@ -78,6 +78,30 @@ a:focus,.nav-link:focus{
 .footerContent{
     border-bottom: 1px solid var(--color-greyD4);
 }
+.footer .payItem li{
+    width: 2.8rem;
+    height: 2rem;
+}
+.footer .payItem i{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    transition: background-image .5s;
+}
+.footer .payItem i.visa{background-image: url('../images/icon/pay/visa_off.svg');}
+.footer .payItem i.mc{background-image: url('../images/icon/pay/mc_off.svg');}
+.footer .payItem i.jcb{background-image: url('../images/icon/pay/jcb_off.svg');}
+.footer .payItem i.up{background-image: url('../images/icon/pay/up_off.svg');}
+.footer .payItem i.pp{background-image: url('../images/icon/pay/pp_off.svg');}
+.footer .payItem i.ec{background-image: url('../images/icon/pay/ec_off.png');}
+
+.footer .payItem i.visa:hover{background-image: url('../images/icon/pay/visa_on.svg');}
+.footer .payItem i.mc:hover{background-image: url('../images/icon/pay/mc_on.svg');}
+.footer .payItem i.jcb:hover{background-image: url('../images/icon/pay/jcb_on.svg');}
+.footer .payItem i.up:hover{background-image: url('../images/icon/pay/up_on.svg');}
+.footer .payItem i.pp:hover{background-image: url('../images/icon/pay/pp_on.svg');}
+.footer .payItem i.ec:hover{background-image: url('../images/icon/pay/ec_on.png');}
+
 .productTitle{
     color: var(--color-brown);
 }
