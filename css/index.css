@@ -14,7 +14,7 @@
 }
 
 .kolBtn{
-    background-color: var(--color-brown);
+    /* background-color: var(--color-brown); */
     opacity: 1;
     z-index: 0;
     width: 48px;
@@ -23,9 +23,9 @@
     top: initial;
     transition: .3s;
 }
-.kolBtn:hover{
+/* .kolBtn:hover{
     background-color: var(--color-brown5f);
-}
+} */
 .carousel-control-prev{
     right: 48px;
     left: initial;}
