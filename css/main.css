@@ -24,6 +24,7 @@ a:hover,.nav-link:hover,
 a:focus,.nav-link:focus{
     color: var(--color-brownDeep);
 }
+.btn-check:focus+.btn, .btn:focus{box-shadow:none;}
 /* 按鈕 邊框式*/
 .btn-outline-brownDeep{
     color: var(--color-brownDeep);
@@ -56,12 +57,12 @@ a:focus,.nav-link:focus{
     background-color: var(--color-brown5f);
 }
 .discountAlert{
-    z-index: 1;
+    z-index: 99;
     top: 0;
     background-color: var(--color-brown);
 }
 .header{
-    z-index: 1;
+    z-index: 99;
     top: 40px;
 }
 .labelIcon{
@@ -139,4 +140,8 @@ a:focus,.nav-link:focus{
 /* 文字縮排 */
 .indent-2{
     padding-left: 2em;
+}
+.breadcrumb{
+    background-color: var(--color-greyE9);
+    font-size: .8rem;
 }
